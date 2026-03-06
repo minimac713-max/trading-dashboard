@@ -1,0 +1,16 @@
+{
+  "mission": "DOUBLE $50 TO $100",
+  "execution_status": "FAILED",
+  "entry_timestamp": "2026-03-06T15:17:10.418240",
+  "entry_price": 68137.0,
+  "position_size_btc": 0.00073382,
+  "entry_value_usd": 50.0,
+  "stop_loss_price": 62686.04,
+  "stop_loss_pct": -8.0,
+  "take_profit_price": 136274.0,
+  "take_profit_pct": 100.0,
+  "order_id": null,
+  "current_mark_price": 68137.0,
+  "trade_status": "PENDING",
+  "error": "['EAPI:Invalid key']"
+}

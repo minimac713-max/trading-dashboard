@@ -1,0 +1,9 @@
+{
+  "api_name": "kraken02",
+  "public_key": "tuWRMuJOa4RxQfjaPkXBfubIKUfXtqDkSa9lH5v2qjahK/A6kFsfXYPQ",
+  "private_key": "2H85dro7ismiOHEQeEcJBknmK37Nv2/ls9xwrUp+tDEiFFt/+x1zvcSFhI0Cz67m0nNOc1NbH9lDKVaUq5Qugg==",
+  "created": "2026-03-05T20:50:00Z",
+  "permissions": ["Query", "Deposit", "Withdraw", "Earn", "Query open orders", "Query closed orders", "Create & modify orders", "Cancel & close orders", "Query ledger entries"],
+  "ip_restriction": "73.136.113.4",
+  "expiry": "2026-05-06"
+}

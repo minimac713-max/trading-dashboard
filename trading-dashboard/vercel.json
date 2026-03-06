@@ -1,12 +1,10 @@
 {
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_KRAKEN_API_URL": {
-      "description": "Kraken API URL",
-      "value": "https://api.kraken.com/0/public"
+  "outputDirectory": "public",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
-  }
+  ]
 }

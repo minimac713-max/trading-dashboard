@@ -1,0 +1,8 @@
+{
+  "api_name": "kraken04",
+  "public_key": "MOCHVqDjIWQ604mBoJKd//4jSGFrJ60QvYzFNf6XjDYiOvK16gnsaIFL",
+  "private_key": "ktgX7/gBqmdX7O7UEftKxGVvXd1a7ofPXueaGZqIlpoOhcuj1iyXFnjN9d+2jW8zakJGUEOKYnTtVg4c2QZHKg==",
+  "created": "2026-03-05T21:10:00Z",
+  "status": "ACTIVE",
+  "permissions": ["Query", "Deposit", "Withdraw", "Earn", "Create & modify orders", "Cancel & close orders", "Query ledger entries"]
+}
