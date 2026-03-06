@@ -1,40 +1,15 @@
-'use client'
-
-import { useState } from 'react'
-import Header from '@/components/Header'
-import LiveMetrics from '@/components/LiveMetrics'
-import PositionMonitor from '@/components/PositionMonitor'
-import Charts from '@/components/Charts'
-import TradeHistory from '@/components/TradeHistory'
-import ControlsPanel from '@/components/ControlsPanel'
-import Alerts from '@/components/Alerts'
-
-export default function Dashboard() {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      <Header />
-      <main className="max-w-7xl mx-auto px-4 py-8 space-y-8">
-        {/* Top Section: Key Metrics */}
-        <LiveMetrics />
-
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left: Charts & Position */}
-          <div className="lg:col-span-2 space-y-8">
-            <Charts />
-            <PositionMonitor />
-          </div>
-
-          {/* Right: Controls & Alerts */}
-          <div className="space-y-8">
-            <ControlsPanel />
-            <Alerts />
-          </div>
+    <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold text-white mb-4">₿ Trading Dashboard</h1>
+        <p className="text-xl text-slate-400 mb-8">Real-Time Bitcoin Analytics</p>
+        <div className="bg-slate-800 p-8 rounded-lg max-w-md">
+          <p className="text-slate-300 mb-4">Current BTC Price: <span className="text-green-400 font-bold">Loading...</span></p>
+          <p className="text-slate-300 mb-4">Portfolio Balance: <span className="text-blue-400 font-bold">$93.75</span></p>
+          <p className="text-slate-300">Status: <span className="text-yellow-400 font-bold">Ready to Trade</span></p>
         </div>
-
-        {/* Bottom: Trade History */}
-        <TradeHistory />
-      </main>
+      </div>
     </div>
   )
 }
